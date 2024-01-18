@@ -1,4 +1,4 @@
-import Header from "../src/components/header"
+import Header from "../../GKS Kite School/src/components/Header"
 
 function App() {
   
