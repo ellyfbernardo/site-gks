@@ -1,4 +1,4 @@
-*{}html, body, div, span, applet, object, iframe,
+*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -49,18 +49,26 @@ table {
 
 .content{
      display: flex;
+     justify-content: space-between;
      align-items: center;
-     padding: 1em;
-     justify-content: space-between;    
+     padding: 1.1	rem;
+	width: 100%;
 }
 .logo{
-     width: 188px;
+     width: 15%;
 }
 
 ul{
      display: flex;
+	align-items: center;
+	
 }
 li{
      margin: 1rem;
      font-size:1.1rem;
+}
+
+li:nth-child(5){
+	border: 1px #000 solid;
+	padding: 1.1rem;
 }

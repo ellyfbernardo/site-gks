@@ -1,43 +1,43 @@
 import { NavLink } from "react-router-dom";
+import './header.css';
 
-// import './header.css';
 function Header(){
 
 
      
      return(
           <>
-               <header className=' flex justify-between'>
+               <header className='content'>
                     
-                         <img className='logo w-24 md:w-32 lg:w-48 mt-3 ml-3'  src="../src/img/LOGO_GKS.png" alt="logo GKS" />
+                         <img className='logo'  src="../src/img/LOGO_GKS.png" alt="logo GKS" />
 
                          <nav>
-                              <ul className=' flex '>
-                                   <NavLink className=' m-2 '
+                              <ul className=''>
+                                   <li><NavLink className=''
                                         activeClassName="is-active"
                                         to="/"
                                         exact
-                                        >GKS - KITE SCHOOL</NavLink>
-                                   <NavLink className=' m-2 '
+                                        >GKS - KITE SCHOOL</NavLink></li>
+                                   <li><NavLink className=''
                                         activeClassName="is-active"
                                         to="/"
                                         exact
-                                        >QUEM SOMOS</NavLink>
-                                   <NavLink className=' m-2 '
+                                        >QUEM SOMOS</NavLink></li>
+                                   <li><NavLink className=''
                                         activeClassName="is-active"
                                         to="/"
                                         exact
-                                        >NOSSAS AULAS</NavLink>
-                                   <NavLink className=' m-2 '
+                                        >NOSSAS AULAS</NavLink></li>
+                                   <li><NavLink className=''
                                         activeClassName="is-active"
                                         to="/"
                                         exact
-                                        >PRAIAS</NavLink>
-                                   <NavLink className=' m-2 '
+                                        >PRAIAS</NavLink></li>
+                                   <li><NavLink className=''
                                         activeClassName="is-active"
                                         to="/"
                                         exact
-                                        >CONTATO</NavLink>
+                                        >CONTATO</NavLink></li>
                               </ul>
                          </nav>
                    
